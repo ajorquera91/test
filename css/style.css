@@ -3,6 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   width: 210mm;
   min-height: 297mm;
+  margin: 0
 }
 
 .quotation {
@@ -259,6 +260,7 @@ h3.title::after {
 
 .flex .payment-box {
   flex-grow: 1;
+  min-height: 233px;
 }
 
 a:hover {
